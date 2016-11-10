@@ -1,0 +1,24 @@
+{
+  "name": "looping-job",
+  "version": "1.4.2",
+  "description": "A safety looping job generator.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel index.es2015.js -o index.js --presets es2015"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.0.0",
+    "babel-preset-es2015": "~6.6.0"
+  },
+  "maintainers": [
+    {
+      "name": "benzhe",
+      "email": "ben.water@yunbeta.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:benzhe/looping-job.git"
+  },
+  "directories": {}
+}
